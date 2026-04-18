@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "If you reference this research project, please cite as follows."
+title: "Co-Evolutionary Latent Graphs for Neural Jump-Diffusion Processes"
+authors:
+  - family-names: Martens
+    given-names: Adrian
+    affiliation: ETH Zürich
+  - family-names: Krause
+    given-names: Samuel
+    affiliation: ETH Zürich
+    email: sakrause@ethz.ch
+date-released: 2026-04-17
+url: "https://github.com/samuelkrause02/Co-Evolutionary-Neural-Jump-Diffusion"

@@ -1,0 +1,24 @@
+model:
+  hidden_dim: 32
+  edge_dim: 64
+  adjacency_variant: deterministic  # deterministic | stochastic | jump_induced
+
+sde:
+  solver: euler
+  dt: 0.05
+  t_end: 10.0
+
+jump:
+  base_intensity: 0.1
+  state_coupling: true
+
+training:
+  batch_size: 32
+  lr: 1.0e-3
+  epochs: 200
+  grad_clip: 1.0
+  seed: 42
+
+logging:
+  wandb_project: cenjd
+  log_every: 10
